@@ -62,3 +62,7 @@ input[type='number'] {
 .new-event section {
   padding: 30px 15px;
 }
+
+form-section {
+  margin-bottom: 30px;
+}
