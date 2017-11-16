@@ -64,6 +64,10 @@ input[type='number'] {
   padding: 30px 15px;
 }
 
+.events-list section {
+  padding: 30px 15px;
+}
+
 form-section {
   margin-bottom: 30px;
 }
