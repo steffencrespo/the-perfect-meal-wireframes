@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Perfect Meal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <nav role="navigation">Nav</nav>
+  <main role="main" class="new-event">
+    <header>
+      <h1>Let's Have a Party</h1>
+    </header>
+    <section>
+      <form id="create-party">
+        <div class="form-section">
+          <p>Name your event</p>
+          <input type="text" name="party-name" placeholder="name this event" required>
+        </div>
+        <div class="form-section">
+          <p>What is the occasion?</p>
+          <select name="party-type">
+            <option value="thanksgiving">Thanksgiving</option>
+            <option value="easter">Easter</option>
+          </select> 
+        </div>
+        <div class="form-section">
+          <p>How many guests are coming?</p>
+          <input type="number" name="party-guests" min="0" max="999" required>
+        </div>
+      </form>
+    </section>
+    <section>
+      <header>
+        <h3>You are going to need</h3>
+        <p>12 lbs of Turkey</p>
+        <p>5 gallons of drinks</p>
+      </header>
+    </section>
+    <section>
+      <button type="cancel">Cancel</button>
+      <button type="submit">Save</button>
+      <button type="cancel">Delete</button>
+    </section>
+  </main>
+  <footer>Footer</footer>
+</body>
+</html>

@@ -37,3 +37,28 @@ section {
 section:nth-child(even) {
   background-color: #ddd;
 }
+
+p {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+p + p {
+  margin-top: 15px;
+}
+
+form {
+  text-align: left;
+}
+
+input {
+  width: 100%;
+}
+
+input[type='number'] {
+  width: 50px;
+}
+
+.new-event section {
+  padding: 30px 15px;
+}
